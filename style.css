@@ -8,3 +8,27 @@ body{
   margin: 0;
   height: 100vh;
 }
+
+
+#hint {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45%;
+	text-align: center;
+}
+#hint .message {
+    display: inline-block;
+    background:cyan;
+    /* color: #666666; */
+    font-family: "Lucida Grande", verdana, sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    /* border-radius: 10.56px; */
+    padding: 0 16px;
+    text-transform: uppercase;
+}
+
+.hide{
+  visibility: hidden;
+}
